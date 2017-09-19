@@ -1,0 +1,719 @@
+body {
+  padding-top: 50px;
+  padding-bottom: 20px;
+  background-color: #eeeeee;
+  font-family: Lato, Helvetica, sans-serif;
+  color: #191919
+}
+
+hr{
+	border-top-color:#fff;
+}
+
+a{
+	color:#33add6;
+}
+
+a:hover{
+	color:#008ab8;
+	text-decoration: none;
+}
+
+a.anchor{
+	display: block; position: relative; top: -50px; visibility: hidden;
+}
+
+/* NAVBAR CONTENT
+-------------------------------------------------- */
+.navbar-default {
+	background-color: #fff;
+	border:0px;
+	border-bottom: 1px #ddd solid;
+	font-weight: 700;
+	text-shadow: 0px 1px 1px (204,204,204,.5);
+}
+
+.navbar-default .navbar-brand{
+	padding:5px 10px 5px 15px;
+	min-width: 120px
+}
+.navbar-default .navbar-brand img{
+	max-width: 120px;
+}
+
+.navbar-default .navbar-nav > li > a {
+	color: #191919;
+}
+.navbar-default .navbar-nav > li > a:hover, 
+.navbar-default .navbar-nav > li > a:focus {
+	color: #0099cc;
+}
+.navbar-default .navbar-nav > .active > a, 
+.navbar-default .navbar-nav > .active > a:hover, 
+.navbar-default .navbar-nav > .active > a:focus {
+	color: #191919;
+	background-color: #e6f5fa;
+}
+
+/* INDEX JUMBOTRON CONTENT
+-------------------------------------------------- */
+
+.jumbotron{
+	/*background-color: #0099cc;
+	background-image: linear-gradient(to bottom,#0099cc 0,#008ab8 100%);
+	background-repeat: repeat-x;
+	*/
+	background-image: url(../img/cool.jpg);
+	background-size: cover;
+	background-position: center;
+	text-shadow: 1px 1px 2px rgba(0,0,0,.8);
+	color:#ffffff;
+}
+
+.jumbotron .container{
+	padding-left: 5px;
+	padding-right: 5px;
+	width: 1170;
+	margin: auto;
+}
+
+.jumbotron .col-lg-6 h1{
+	margin:0px 0px 15px 0px;
+	font-size: 4.5em;
+	font-weight: bold;
+}
+
+.jumbotron .col-lg-6 p{
+	font-size: 1.6em;
+	max-width: 500px;
+}
+
+.jumbotron #learn-more{
+	font-weight: 400;
+	font-size: 1.3em;
+}
+
+.jumbotron .col-lg-6 a:hover{
+	color:#008ab8;
+}
+
+.jumbotron .col-lg-3{
+	padding-right:6px;
+	padding-left: 6px;
+	padding-top: 15px;
+}
+
+.jumbotron .col-lg-3 .container{
+	width: 100%;
+	min-height: 305px;
+	padding: 10px 20px 10px 20px;
+	border-radius: 10px;
+	/*border: #fff 1px solid;*/
+	background-color: #191919;
+	background-color: rgba(0,0,0,.4);
+	text-align: center;
+}
+
+.jumbotron .col-lg-3 .container h2{
+	margin-top: 23px;
+	font-size: 2.5em;
+	text-align: center;
+}
+
+.jumbotron .col-lg-3 .container p{
+	font-size: 1.18em;
+	margin-bottom: 10px;
+	margin-top: 5px;
+	text-align:left;
+	display: inline-block;
+}
+
+.jumbotron .col-lg-3 .container .my-button{
+	display: inline-block;
+	margin: auto;
+	margin-top: 23px;
+	width: 180px;
+	height: 38px;
+	border: 1px #fff solid;
+	border-radius: 4px;
+}
+
+.jumbotron .col-lg-3 .container .my-button #gs-button{
+	padding: 0px 5px 0px 6px;
+	font-weight: bold;
+	line-height: 27px;
+
+}
+
+.jumbotron .col-lg-3 .container .glyphicon{
+	font-size: 1.1em;
+}
+
+.jumbotron .col-lg-3 .container a{
+	color:#fff;
+	text-decoration: none;
+}
+
+.jumbotron .col-lg-3 .container .my-button:hover{
+	color:#191919;
+	text-shadow:none;
+	background-color: #fff;
+}
+
+@media (max-width: 1199px){
+	.jumbotron{
+		padding-top: 25px;
+		padding-bottom: 40px;
+		background-position: 0px -100px;
+	}
+	.jumbotron .col-lg-6{
+		padding-top: 70px;
+	}
+	.jumbotron .col-lg-3{
+		padding-left:20px;
+	}
+	.jumbotron .col-lg-3 .container{
+		min-height: 188px;
+	}
+	.jumbotron .col-lg-3 .container h2{
+		margin-top: 0px;
+		margin-bottom: 4px;
+		font-size: 2.4em;
+		text-align: center;
+	}
+	.jumbotron .col-lg-3 .container p{
+		font-size: 1.16em;
+		margin-bottom: 0px;
+	}
+	.jumbotron .col-lg-3 .container .my-button{
+		margin-top: 8px;
+	}
+}
+
+@media (max-width: 991px){
+	.jumbotron{
+		padding-top: 35px;
+		padding-bottom: 50px;
+		background-position: center;
+	}
+	.jumbotron .col-lg-6{
+		padding-top: 0px;
+	}
+	.jumbotron .col-lg-6 p{
+		font-size: 1.5em;
+	}
+	.jumbotron .col-lg-3{
+		padding-left:10px;
+	}
+	.jumbotron .col-lg-3 .container{
+		min-height: 210px;
+	}
+}
+
+@media (max-width: 767px){
+	.jumbotron{
+		padding-right: 15px; 
+		padding-left:15px;
+	}
+	.jumbotron .col-lg-6{
+		padding: 0px 10px 0px 10px;
+	}
+	.jumbotron .col-lg-3{
+		padding: 10px 10px 10px 10px;
+	}
+	.jumbotron .col-lg-6 h1{
+		font-size: 3.8em;
+	}
+	.jumbotron .col-lg-6 p{
+		font-size: 1.35em;
+	}
+	.jumbotron .col-lg-3 .container h2{
+		font-size: 2.2em;
+	}
+	.jumbotron .col-lg-3 .container .my-button{
+		margin-top: 23px;
+	}}
+
+@media (max-width: 563px){
+	.jumbotron .col-lg-6{
+		padding: 0px;
+	}
+	.jumbotron .col-lg-3{
+		min-width: 100%;
+		padding: 0px;
+		padding-top: 8px; 
+	}
+	.jumbotron .col-lg-3 .container{
+		min-height: 160px;
+	}
+	.jumbotron .col-lg-3 .container .my-button{
+		margin-top: 8px;
+	}
+}
+
+
+/* INDEX BODY CONTENT
+-------------------------------------------------- */
+
+.content {
+  padding-right: 15px;
+  padding-left: 15px;
+  padding-top: 0px;
+}
+
+.content h1{
+	font-weight: bold;
+	text-align: center;
+	color: #191919;
+	margin-top: 20px;
+	margin-bottom: 40px;
+	font-size: 2.3em;
+}
+
+.content .intro-p{
+	font-size: 1.17em;
+	margin-bottom: 5px;
+	text-align: center;
+}
+
+.content .row{
+	margin-top: 30px;
+	margin-bottom: 50px;
+}
+
+.content .col-lg-4 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.content img{
+	height:140px;
+	width:140px;
+}
+
+.content .col-lg-4 .container{
+	width:100%;
+	height: 100%;
+	background-color: #ffffff;
+	padding:15px;
+	border-radius: 15px;
+}
+
+@media (max-width: 767px){
+	.content .col-lg-4 .container{
+		max-width: 600px;
+	}
+	.content h1{
+		font-size: 2em;
+	} 
+}
+
+.content .col-lg-4 a{
+	text-decoration: none;
+	color: #191919;
+	display:block;
+}
+
+.content .col-lg-4 .container:hover{
+	background-color: #ccebf5;
+	opacity: 80%;
+}
+
+.content h2 {
+  font-weight: bold;
+}
+
+.content .col-lg-4 p {
+  margin-bottom: 2px;
+  font-size: 1em;
+}
+
+/* ABOUT BODY CONTENT
+-------------------------------------------------- */
+.about-content{
+  padding-right: 15px;
+  padding-left: 15px;
+  padding-top: 0px;
+}
+
+#about-jumbo{
+	background-image: url(../img/sprials-compiled-banner.png);
+	text-shadow: 3px 3px 6px rgba(0,0,0,.95);
+	padding-top: .75em;
+	min-height: 278px;
+	margin-bottom: 20px;
+} 
+
+#about-jumbo h1{
+	font-weight: bold;
+	text-align: center;
+	color: #fff;
+	margin-top: 85px;
+}
+
+#about-jumbo .intro-p{
+	font-size: 1.3em;
+	margin-bottom: 40px;
+	text-align: center;
+	max-width: 700px;
+	margin-right: auto;
+	margin-left:auto;
+}
+
+.about-content h1{
+	font-weight: bold;
+	text-align: center;
+	color: #191919;
+}
+
+.about-content h2{
+	font-weight: bold;
+	font-size: 1.7em;
+}
+
+.about-content p{
+  font-size: 1.2em;
+  font-weight: 300;
+}
+
+.about-content strong{
+	font-weight: 400;
+}
+
+.about-content footer p{
+	font-size: 1em;
+	font-weight: 400;
+}
+
+/* GALLERY BODY CONTENT
+-------------------------------------------------- */
+
+.gallery-content {
+  padding-right: 15px;
+  padding-left: 15px;
+  padding-top: 0px;
+}
+
+#gallery-jumbo{
+	background-image: url(../img/gallery-jumbo-image.png);
+	text-shadow: 1px 1px 2px rgba(0,0,0,.8);
+	padding-top: .75em;
+} 
+
+#gallery-jumbo h1{
+	font-weight: bold;
+	text-align: center;
+	color: #fff;
+	margin-top: 50px;
+}
+
+#gallery-jumbo .intro-p{
+	font-size: 1.3em;
+	margin-bottom: 40px;
+	text-align: center;
+	max-width: 700px;
+	margin-right: auto;
+	margin-left:auto;
+}
+
+.gallery-content .col-lg-4 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.gallery-content .col-lg-4 .container{
+	width:100%;
+	background-color: #ffffff;
+	padding:15px;
+	border-radius: 15px;
+}
+
+.gallery-content .col-lg-4 a{
+	text-decoration: none;
+	color: #191919;
+	display:block;
+}
+
+.gallery-content .col-lg-4 .container:hover{
+	background-color: #ccebf5;
+	opacity: 80%;
+}
+
+.gallery-content .title-container{
+	min-height: 77px;
+}
+
+.gallery-content h2 {
+  font-weight: bold;
+  margin-top: 0px;
+  font-size: 1.6em;
+  text-align: left;
+  margin-bottom: 5px;
+}
+
+.gallery-content h4 {
+	text-align: left;
+	color:#555;
+	margin-top: 0px;
+	font-weight: 300;
+	font-size: 1.1em;
+}
+
+.gallery-content .image-container{
+	width:300;
+	height:169;
+	position: relative;
+	padding-bottom: 56.25%;
+	padding-top: 10px;
+	display: block;
+	overflow: hidden;
+}
+
+.gallery-content .image-container img{
+	position: absolute;
+	display: block;
+	top:0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+	max-height: 100%;
+	max-width: 100%;
+	/*object-fit: contain;*/
+}
+
+.gallery-content .col-lg-4 .container .video-container{
+	position: relative;
+	padding-bottom: 56.25%;
+	padding-top:10px;
+}
+
+.gallery-content .video-container iframe{
+	position: absolute;
+	top:0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.gallery-content .info-container{
+	position: relative;
+	padding-bottom: 5%;
+}
+
+.gallery-content .profile-pic{
+	height:50px;
+	width:50px;
+	position: absolute;
+}
+
+
+/* MAP 
+-------------------------------------------------- */
+
+.map {
+  padding-right: 15px;
+  padding-left: 15px;
+  padding-top: 0px;
+}
+
+.map h3{
+	font-weight: 300;
+	text-align: center;
+	font-size: 1.4em;
+	margin-top: 0px;
+	margin-bottom: 100px;
+}
+
+.map .map-container{
+	padding-top: 20px;
+}
+
+/* FAQ BODY CONTENT
+-------------------------------------------------- */
+.faq-content{
+  padding-right: 15px;
+  padding-left: 15px;
+  padding-top: 0px;
+}
+
+#faq-jumbo{
+	background-image: url(../img/faq-banner.png);
+	text-shadow: 1px 1px 3px rgba(0,0,0,.7);
+	padding-top: .75em;
+	min-height: 278px;
+	margin-bottom: 20px;
+} 
+
+#faq-jumbo h1{
+	font-weight: bold;
+	text-align: center;
+	color: #fff;
+	margin-top: 85px;
+}
+
+#faq-jumbo .intro-p{
+	font-size: 1.3em;
+	margin-bottom: 40px;
+	text-align: center;
+	max-width: 700px;
+	margin-right: auto;
+	margin-left:auto;
+}
+
+#faq-jumbo .intro-p a{
+	color:#4db8db;
+}
+
+#faq-jumbo .intro-p a:hover{
+	color:#191919;
+}
+
+.faq-content ul{
+	padding-left: 20px;
+}
+
+.faq-content a.faq-list{
+	font-size: 1.4em;
+	font-weight: bold;
+	color: #191919;
+}
+
+
+.faq-content a.faq-list:hover{
+	color: #0099cc;
+}
+
+.faq-content h1{
+	font-weight: bold;
+	text-align: center;
+	color: #191919;
+}
+
+.faq-content h2{
+	font-weight: bold;
+	font-size: 1.7em;
+	margin-top: 25px;
+}
+
+.faq-content p{
+  font-size: 1.2em;
+  font-weight: 300;
+}
+
+.faq-content strong{
+	font-weight: 400;
+}
+
+.faq-content footer p{
+	font-size: 1em;
+	font-weight: 400;
+}
+
+
+/* FOOTER CONTENT 
+-------------------------------------------------- */
+
+footer .col-lg-8{
+	padding: 0px;
+	padding-bottom: 15px;
+}
+
+footer p{
+	font-size: 1em;
+	text-align: left;
+	margin-bottom: 5px;
+	clear: both;
+}
+
+footer #license{
+	margin-top: 20px;
+}
+
+footer .col-lg-8 a{
+	font-weight: bold;
+	color:#0099cc;
+}
+
+footer .col-lg-8 a:hover{
+	color: #191919;
+	text-decoration: none;
+}
+
+footer #sponsor-logos{
+	width:100%;
+	height:25px;
+	padding: 0px;
+	margin-top: 0px;
+}
+
+footer #logo-macarthur{
+/* 650x53px */
+  display: block;
+  float: left;
+  background: url(../img/logo-macarthur-foundation.png) no-repeat;
+  background-size: contain;
+  background-position: center;
+  width:257px;
+  height:100%;
+}
+
+footer #logo-p2pu{
+/* 686x212px */
+  display: block;
+  float: left;
+  background: url(../img/p2pu-logo.png) no-repeat;
+  background-size: contain;
+  background-position: center;
+  width:68px;
+  height:100%;
+  margin: 0px 15px 0px 20px;
+}
+
+footer #logo-medialab{
+/* 883x106px */
+  display: block;
+  float: left;
+  background: url(../img/medialab-logo-text.png) no-repeat;
+  background-size: contain;
+  background-position: center;
+  width:175px;
+  height:100%;
+}
+
+footer #logo-hewlett{
+ /* 400x155px */
+  display: block;
+  float: left;
+  background: url(../img/hewlett-foundation-logo.jpeg) no-repeat;
+  background-size: contain;
+  background-position: center;
+  width:75px;
+  height:100%;
+  margin: 0px 15px 0px 0px;
+ }
+
+@media (max-width: 654px){
+	footer #sponsor-logos{
+		height:46px;
+	}
+	footer #logo-macarthur{
+		margin: 7px 0px 15px -2px;
+		height: 50%;
+		clear:both;
+	}
+	footer #logo-p2pu{
+		height:60%;
+		clear:both;
+		margin: 7px 0px 0px 2px;
+	}
+	footer #logo-medialab{
+		height:50%;
+	}
+	footer #logo-hewlett{
+		height:60%;
+		margin: 7px 0px 0px 15px;
+	}
+	
+}
+
