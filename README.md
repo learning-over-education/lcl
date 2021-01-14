@@ -1,8 +1,8 @@
 [ARCHIVE] Learning Creative Learning 2014
 ==========================
-This site is now an archive. You can find it at http://learn.media.mit.edu/lcl-archive-2014.
+This site is now an archive. You can find it at http://lcl-2014.media.mit.edu/.
 
-**If you are looking for the current LCL website, please go to http://learn.media.mit.edu/lcl**
+**If you are looking for the current LCL website, please go to http://lcl.media.mit.edu**
 
 
 
