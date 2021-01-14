@@ -6,4 +6,4 @@ This site is now an archive. You can find it at http://lcl-2014.media.mit.edu/.
 
 
 
-This is the official repo for generating the Learning Creative Learning (LCL) website. See the website code in the gh-pages branch.
+This is the official repo for generating the Learning Creative Learning (LCL) 2014 website. 
